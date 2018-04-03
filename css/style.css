@@ -1,0 +1,411 @@
+@font-face {
+    font-family: jose;
+    src: url(../fonts/JosefinSans-SemiBold.ttf);
+}
+*{
+	font-family:jose;
+}
+
+.preloader{
+    position: absolute;
+    transition: 1s all ease;
+    background:rgba(0,0,0,0.9);
+    /*background:url(../img/pre.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    z-index:9999;
+    text-align: center;
+    height: 100vh;
+}
+.preloader > i{
+    position: relative;
+    top:37vh;
+    color: white;
+}
+
+.navbar {
+    min-height: 70px;
+    transition: .5s all ease-in;
+}
+
+.transparent{
+	background: rgba(255,255,255,0.5);
+	border-color: transparent;
+	color: white;
+	transition: .5s all ease-in;
+}
+
+.navbar-fixed-top .navbar-brand:hover {
+    padding-top: 15px;
+    color: black;
+    font-size: 20px;
+    transition: .5s all ease-in;
+}
+
+.navbar-fixed-top .navbar-brand{
+    padding-top: 15px;
+    color: black;
+    font-size: 20px;
+    transition: .5s all ease-in;
+}
+
+.navbar-default  .navbar-brand:hover {
+    padding-top: 15px;
+    color: black;
+    font-size: 20px;
+    transition: .5s all ease-in;
+}
+
+.navbar-brand:hover {
+    padding-top: 15px;
+    color: black;
+    font-size: 20px;
+    transition: .5s all ease-in;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #009688;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 33px;
+    border-top:3px solid transparent;
+    transition: .5s all ease-out;
+}
+
+.transparent .navbar-nav > li > a {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 23px;
+    border-top:3px solid transparent;
+    transition: .5s all ease-out;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top:3px solid red;
+    transition: .5s all ease-in;
+}
+
+.transparent .navbar-nav > li > a:hover {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top:3px solid red;
+    transition: .5s all ease-in;
+}
+
+.transparent  .navbar-brand {
+    padding-top: 6px;
+    color: white;
+    font-size: 20px;
+}
+
+.transparent  .navbar-brand:hover {
+    padding-top: 6px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background: transparent;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 25px;
+    padding: 9px 10px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar .navbar-toggle > #toggle-bar{
+	color: black;
+	font-size: 25px;
+	margin-top: 0px;
+}
+
+.transparent  .navbar-toggle > #toggle-bar{
+	color: white;
+	font-size: 25px;
+	margin-top: -7px;
+}
+
+.navbar-collapse {
+    border-top: 0px solid transparent;
+    box-shadow: 0;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    height:580px;
+    width: 100%;
+}
+
+.row{
+	width: 100%;
+}
+
+.carousel-control{
+	height: 50px;
+	width: 50px;
+	background: black;
+	top: 50%;
+	transition: .5s all ease; 
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+    left: 31%;
+    top: 15px;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-right {
+    right: 31%;
+    top: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	    height:500px;
+	}
+	.transparent .navbar-nav > li > a:hover {
+	    border-top:3px solid transparent;
+	    color: yellow;
+	}
+	.transparent .navbar-nav > li > a:focus {
+	    border-top:3px solid transparent;
+	    color: red;
+	}
+}
+
+@media only screen and (max-height: 600px) {
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	    height:500px;
+	}
+}
+
+.products{
+	height: 100px;
+	background: black;
+}
+
+.languages{
+	color: white;
+	word-spacing: 75px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.work-with{
+	color: white;
+	margin-top: 18px;
+	font-size: 17px;
+	letter-spacing: 6px;
+}
+
+.services{
+    padding-top:35px;
+    padding-left: 30px;
+}
+
+.services > .row > h1{
+	padding-bottom: 30px;
+	font-family: jose;
+}
+
+.panel-title{
+	font-family: jose;
+	text-align: center;
+}
+
+.fa-desktop{
+    font-size: 100px;
+    padding-bottom:30px; 
+}
+
+.fa-android, .fa-rocket, .fa-globe{
+    font-size: 100px;
+    padding-bottom:30px; 
+}
+
+.fa-mobile{
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.card > .card-action{
+    padding-top: 30px;
+}
+
+.panel-title{
+    font-size: 20px;
+}
+
+.card-content > ul > li{
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.intro{
+    background: url(../img/nav.jpg);
+    background-attachment: fixed;
+    padding-left:120px;
+    padding-right:100px;
+    padding-top:100px;
+    padding-bottom:90px;
+    background-position: center;
+    background-size: 100% 630px;
+    background-repeat: no-repeat;
+}
+
+.intro > .row{
+    background-color: rgba(255,255,255,0.7);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.intro > .row > .col-lg-6{
+    padding: 50px;
+}
+
+.intro > .row > .next{
+    padding: 50px;
+}
+
+.intro > .row > .col-lg-6 > p{
+    color: teal;
+    line-height: 80px;
+    font-size: 50px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.intro > .row > .next > p{
+    color: teal;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+.container > .row{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+    .intro{
+        background: url(../img/nav.jpg);
+        background-attachment: fixed;
+        padding: 0;
+        padding-left: 30px;
+        background-position: center;
+    }
+
+    .intro > .row{
+        background-color: rgba(255,255,255,0.8);
+        width: 100%;
+    }
+
+    .intro > .row > .col-lg-6{
+        padding: 30px;
+    }
+
+    .intro > .row > .col-lg-6 > p{
+        color: teal;
+        line-height: 70px;
+        font-size: 30px;
+        text-align: left;
+        font-weight: normal;
+    }
+    .intro > .row > .next{
+        padding: 30px;
+    }
+    .intro > .row > .next > p{
+        color: teal;
+        line-height: 40px;
+        font-size: 20px;
+        text-align: left;
+        font-weight: normal;
+    }
+}
+
+.portfolio > .row > h1{
+    padding-bottom: 50px;
+}
+
+.portfolio > .row > .col-lg-4 > .card{
+    margin-bottom: 70px;
+}
+
+#contact{
+    background: url(../img/contact.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 730px;
+    background-repeat: no-repeat;
+}
+
+#contact{
+    margin:0px;
+    padding: 0px;
+}
+
+#contact > .row{
+    padding: 30px;
+    background-color: rgba(255,255,255,0.7);
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#contact > .row > .col{
+    margin-top: 50px;
+}
+
+#contact > .row > .col > hr{
+    border-color: red;
+    width: 20%;
+}
+
+address{
+    font-size: 19px;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+
+.mobile-num{
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 35px;
+}
+
+#map{
+    width: 100%;
+    height:200px;
+}
